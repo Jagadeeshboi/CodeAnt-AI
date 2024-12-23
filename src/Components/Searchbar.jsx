@@ -1,8 +1,6 @@
 import { FiSearch } from 'react-icons/fi';
-import { useState } from 'react';
 
-const IconSearchBar = () => {
-  const [query, setQuery] = useState('');
+const IconSearchBar = ({query, setQuery}) => {
   return (
     <div className="w-full max-w-full">
       <div className="relative ">

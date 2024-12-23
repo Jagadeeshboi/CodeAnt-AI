@@ -2,16 +2,26 @@ import { FiDatabase } from 'react-icons/fi';
 import { RxDotFilled } from 'react-icons/rx';
 import { repositories } from '../../Utility/data';
 import { TableHead } from './TableHead';
+import { useState } from 'react';
+
 export const Table = () => {
+  const [query, setQuery] = useState('');
+
+  const filteredData = repositories.filter((item) =>
+    item.name.toLowerCase().includes(query.toLowerCase())
+  );
+
+  const Data=filteredData?filteredData:repositories;
+
   return (
     <>
       <div className="relative overflow-x-auto border border-gray-300 shadow-sm sm:rounded-lg">
-        <TableHead />
+        <TableHead query={query} setQuery={setQuery} />
         <div className="w-full text-sm text-left rtl:text-right text-gray-500 :text-gray-400">
-            {repositories.map((data, i) => (
+            {Data.map((data, i) => (
               <div
                 key={i}
-                className="bg-white px-4 border-b :bg-gray-800 0 hover:bg-gray-50 cursor-pointer"
+                className="bg-white px-1 border-b :bg-gray-800 0 hover:bg-gray-50 cursor-pointer"
               >
                 <h1 className="px-4 py-3 flex justify-btween  items-center text-base font-medium text-gray-900 whitespace-nowrap :text-white">
                   <span>{data.name}</span>

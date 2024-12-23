@@ -2,7 +2,7 @@ import { repositories } from '../../Utility/data';
 import IconSearchBar from '../Searchbar';
 import { BlueBtn, WhiteBtn } from '../Buttons';
 
-export const TableHead = () => {
+export const TableHead = ({query, setQuery}) => {
   return (
     <div
       id="head-table"
@@ -21,7 +21,7 @@ export const TableHead = () => {
         </div>
       </div>
       <div id="search-bar" className="w-full md:w-4/12 sm:pt-4 lg:mb-2">
-        <IconSearchBar />
+        <IconSearchBar query={query} setQuery={setQuery} />
       </div>
     </div>
   );

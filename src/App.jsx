@@ -1,7 +1,7 @@
 import Layout from './Components/Layout';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Error from './Components/Error';
-import { SigninPage } from './Components/SignIn/SigninPage';
+import { SigninPage } from './Components/Signin/SigninPage';
 
 function App() {
   return (

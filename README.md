@@ -9,16 +9,17 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-DESKTOP VIEW:-
-![image](https://github.com/user-attachments/assets/4b26ea74-ab88-4fab-9d4d-ac52abcb16cb)
-![image](https://github.com/user-attachments/assets/2487b653-b71b-468b-adb0-53361b8eb982)
-![image](https://github.com/user-attachments/assets/16844485-2935-40d9-8251-6ddf97cb8157)
+DESKTOP VIEW:
+![image](https://github.com/user-attachments/assets/129fe176-fcfa-4c15-939a-80f5583e2df6)
+![image](https://github.com/user-attachments/assets/3466ce52-66f4-4f55-9e34-9d99d12eacd9)
+![image](https://github.com/user-attachments/assets/e3e48fcf-d003-406f-b98a-e1d8f3269559)
 
+MOBILE VIEW:-
+![image](https://github.com/user-attachments/assets/2ab78c0d-7c4d-4e1c-9359-3b96bd099419)
+![image](https://github.com/user-attachments/assets/591d449f-91f1-485c-98e8-6971213d4cec)
+![image](https://github.com/user-attachments/assets/517e7d12-36bc-4c2b-a558-0ca825068396)
+![image](https://github.com/user-attachments/assets/2c9d513f-3582-4199-bd07-15e353cff807)
 
-Mobileview:
-![image](https://github.com/user-attachments/assets/8f62425f-ffcd-4ade-b6a1-d6143203c363)
-![image](https://github.com/user-attachments/assets/e0d5aa3e-ea2c-40cc-b747-624934912f9b)
-![image](https://github.com/user-attachments/assets/9a8c02c0-a121-4d28-a926-4e16ebc954fc)
 
 
 

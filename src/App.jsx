@@ -1,14 +1,14 @@
-import Sidebar from './Components/Sidebar';
+import Layout from './Components/Layout';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { SigninPage } from './Components/SigninPage';
 import Error from './Components/Error';
+import { SigninPage } from './Components/SignIn/SigninPage';
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Sidebar />} />
-        <Route path="/sign-in" element={<SigninPage />} />
+        <Route path="/" element={<Layout />} />
+        <Route path="/sign-in" element={<SigninPage/>} />
         <Route path='*' element={<Error/>}/>
       </Routes>
     </BrowserRouter>
